@@ -5,9 +5,12 @@ import Profile from './pages/Profile';
 import Repo from './pages/Repo';
 import Header from './components/Header';
 
+import GlobalStyles from './styles/GlobalStyles';
+
 const App: React.FC = () => {
   return (
     <BrowserRouter>
+      <GlobalStyles />
       <Header />
       <Routes>
         <Route path="/" element={<Profile />} />
