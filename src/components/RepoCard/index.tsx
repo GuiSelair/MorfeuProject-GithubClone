@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 import {
   Container,
@@ -11,7 +11,7 @@ import {
 } from './styles';
 
 interface IReposProps {
-  username: string;
+  user: string;
   reponame: string;
   description?: string;
   language?: string;
@@ -20,7 +20,7 @@ interface IReposProps {
 }
 
 const RepoCard: React.FC<IReposProps> = ({
-  username,
+  user,
   reponame,
   description,
   language,
@@ -34,7 +34,7 @@ const RepoCard: React.FC<IReposProps> = ({
       <Topside>
         <header>
           <RepoIcon />
-          <Link to={`${username}/${reponame}`}>{reponame}</Link>
+          <Link to={`/${user}/${reponame}`}>{reponame}</Link>
         </header>
         <p>{description}</p>
       </Topside>
