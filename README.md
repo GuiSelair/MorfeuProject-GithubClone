@@ -1,4 +1,4 @@
-# Github Clone - Rockeseat 🚀
+<h1 align="center">Github Clone - Rocketseat 🚀</h1>
 
 ## Introdução
 UI Clone desenvolvido no canal do Youtube da Rockeseat pelo [Guilherme Rodz](https://github.com/guilhermerodz])
