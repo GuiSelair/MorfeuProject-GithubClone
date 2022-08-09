@@ -1,4 +1,4 @@
-<h1 align="center">Github Clone - Rocketseat 🚀</h1>
+<h1 align="center">Github Clone</h1>
 
 ![PreviewImage](https://raw.githubusercontent.com/GuiSelair/Youtube-UI-Github-Clone/master/preview.png)
 
